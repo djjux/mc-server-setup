@@ -7,8 +7,8 @@ find . -name "*.sh" -exec chmod +x {} \;
 # Print a fake progress bar
 echo -n "Progress: ["
 for i in {1..50}; do
-    sleep 0.1
-    echo -n "#"
+	sleep $((RANDOM % 5 / 10 + 1 / 10))
+	echo -n "#"
 done
 echo "]"
 
