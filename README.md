@@ -1,3 +1,5 @@
+### MC Server Setup
+
 This is a repo that gives you a facility to just clone it and start using your favorite minecraft server setup in just seconds.
 
 ## Features
