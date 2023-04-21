@@ -15,7 +15,7 @@ while [ true ]; do
     fi
 
     echo "[$(date +"%d.%m.%Y %T")] ExitCode: $?" >> exit_codes/server_exit_codes.log
-    echo "----- Press enter to prevent the server from restarting in $time seconds -----";
+    echo "----- Press enter to prevent the server from restarting in $TIME seconds -----";
     read -t $TIME input;
 
     if [ $? == 0]; then
