@@ -12,12 +12,12 @@ This is a repo that gives you a facility to just clone it and start using your f
 ```
 git clone https://github.com/djjux/mc-server-setup.git
 ```
-2. Run the build.sh script to update perms.
+2. Run the perms.sh script to update perms. (If running on Windows, you can skip this step.)
 ```
-chmod +x build.sh
-./build.sh
+chmod +x perms.sh
+./perms.sh
 ```
-3. Start your server with start2LINUX.sh
+3. Start your server (if you are in Linux) with start2LINUX.sh or just replace `2LINUX.sh` with `WINDOWS.bat`
 ```
 ./start2LINUX.sh
 ```
