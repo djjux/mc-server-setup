@@ -1,8 +1,8 @@
 #!/bin/bash
 JAR=server.jar
-MAXRAM=valuehereM
-MINRAM=valuehereM
-TIME=20
+MAXRAM=valueHereM   # Example 1024M
+MINRAM=valueHereM   # Example 4096M
+TIME=5
 
 while [ true ]; do
     java -Xmx$MAXRAM -Xms$MINRAM -jar $JAR nogui
