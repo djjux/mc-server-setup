@@ -24,3 +24,5 @@ while [ true ]; do
         echo "-------------- SERVER RESTARTING --------------";
     fi
 done
+
+# lol
